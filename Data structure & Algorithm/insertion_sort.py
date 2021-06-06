@@ -1,6 +1,7 @@
 import random
 
 def insertion_sort(numbers):
+    sorted(numbers)
     for i in range(1, len(numbers)):
         key = numbers[i]
         j = i - 1
